@@ -18,7 +18,7 @@ console.log(processArray(numArrayTest));
 
 
 /**Task 2*/
-function formatArrayStrings(arrayOfStrings, processedArray) {
+export function formatArrayStrings(arrayOfStrings, processedArray) {
     if(arrayOfStrings.length <= 0 || processedArray.length <= 0 || arrayOfStrings.length !== processedArray.length) return;
 
     let formattedStrings = arrayOfStrings.map((string, index)=> {
